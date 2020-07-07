@@ -2,7 +2,7 @@ import { Op } from 'sequelize';
 import bolt11 from '@boltz/bolt11';
 import { randomBytes } from 'crypto';
 import { Networks, OutputType } from 'boltz-core';
-import { address, ECPair, Transaction } from 'bitcoinjs-lib';
+import { address, ECPair, Transaction } from 'groestlcoinjs-lib';
 import Logger from '../../../lib/Logger';
 import Errors from '../../../lib/swap/Errors';
 import Swap from '../../../lib/db/models/Swap';

@@ -2,7 +2,7 @@
  * Get the BIP21 prefix for a currency
  */
 const getBip21Prefix = (symbol: string) => {
-  return symbol === 'BTC' ? 'bitcoin' : 'litecoin';
+  return symbol === 'BTC' ? 'groestlcoin' : 'litecoin';
 };
 
 /**

@@ -141,8 +141,8 @@ class Config {
 
       retryInterval: 15,
 
-      prepayminerfee: false,
-      swapwitnessaddress: false,
+      prepayminerfee: True,
+      swapwitnessaddress: True,
 
       api: {
         host: '127.0.0.1',
@@ -186,8 +186,8 @@ class Config {
           fee: 5,
         },
         {
-          base: 'BTC',
-          quote: 'BTC',
+          base: 'GRS',
+          quote: 'GRS',
           fee: 1,
           rate: 1,
         },
@@ -201,7 +201,7 @@ class Config {
 
       currencies: [
         {
-          symbol: 'BTC',
+          symbol: 'GRS',
           network: Network.Testnet,
 
           maxSwapAmount: 100000,
@@ -224,8 +224,8 @@ class Config {
           lnd: {
             host: '127.0.0.1',
             port: 10009,
-            certpath: path.join(getServiceDataDir('lnd'), 'tls.cert'),
-            macaroonpath: path.join(getServiceDataDir('lnd'), 'data', 'chain', 'bitcoin', Network.Testnet, 'admin.macaroon'),
+            certpath: path.join(getServiceDataDir('lnd-grs'), 'tls.cert'),
+            macaroonpath: path.join(getServiceDataDir('lnd-grs'), 'data', 'chain', 'groestlcoin', Network.Testnet, 'admin.macaroon'),
           },
         },
         {

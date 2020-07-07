@@ -1,4 +1,4 @@
-import { Transaction } from 'bitcoinjs-lib';
+import { Transaction } from 'groestlcoinjs-lib';
 
 type WalletBalance = {
   totalBalance: number;

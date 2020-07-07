@@ -1,6 +1,6 @@
 import fs from 'fs';
-import { Network } from 'bitcoinjs-lib';
-import { BIP32Interface, fromSeed } from 'bip32';
+import { Network } from 'groestlcoinjs-lib';
+import { BIP32Interface, fromSeed } from 'bip32grs';
 import { mnemonicToSeedSync, validateMnemonic } from 'bip39';
 import Errors from './Errors';
 import Wallet from './Wallet';

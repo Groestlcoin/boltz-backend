@@ -1,5 +1,5 @@
 import { Op } from 'sequelize';
-import { Transaction } from 'bitcoinjs-lib';
+import { Transaction } from 'groestlcoinjs-lib';
 import { OutputType, reverseSwapScript, swapScript } from 'boltz-core';
 import Errors from './Errors';
 import Logger from '../Logger';

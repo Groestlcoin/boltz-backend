@@ -1,7 +1,7 @@
 import os from 'os';
 import path from 'path';
 import bolt11, { RoutingInfo } from '@boltz/bolt11';
-import { Transaction } from 'bitcoinjs-lib';
+import { Transaction } from 'groestlcoinjs-lib';
 import { OutputType, Scripts } from 'boltz-core';
 import commitHash from './Version';
 import { OrderSide } from './consts/Enums';

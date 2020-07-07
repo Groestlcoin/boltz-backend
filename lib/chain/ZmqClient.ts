@@ -1,7 +1,7 @@
 import AsyncLock from 'async-lock';
 import zmq, { Socket } from 'zeromq';
 import { EventEmitter } from 'events';
-import { Transaction, crypto } from 'bitcoinjs-lib';
+import { Transaction, crypto } from 'groestlcoinjs-lib';
 import Errors from './Errors';
 import Logger from '../Logger';
 import { getHexString, reverseBuffer } from '../Utils';

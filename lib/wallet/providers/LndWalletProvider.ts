@@ -1,4 +1,4 @@
-import { Transaction } from 'bitcoinjs-lib';
+import { Transaction } from 'groestlcoinjs-lib';
 import Logger from '../../Logger';
 import LndClient from '../../lightning/LndClient';
 import ChainClient from '../../chain/ChainClient';

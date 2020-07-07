@@ -1,7 +1,7 @@
 import { Op } from 'sequelize';
 import AsyncLock from 'async-lock';
 import { EventEmitter } from 'events';
-import { address, Transaction } from 'bitcoinjs-lib';
+import { address, Transaction } from 'groestlcoinjs-lib';
 import {
   detectSwap,
   OutputType,

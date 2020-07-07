@@ -1,7 +1,7 @@
-import { fromSeed } from 'bip32';
+import { fromSeed } from 'bip32grs';
 import ops from '@boltz/bitcoin-ops';
 import { Networks } from 'boltz-core';
-import { Transaction, script, crypto } from 'bitcoinjs-lib';
+import { Transaction, script, crypto } from 'groestlcoinjs-lib';
 import { generateMnemonic, mnemonicToSeedSync } from 'bip39';
 import Logger from '../../../lib/Logger';
 import Wallet from '../../../lib/wallet/Wallet';

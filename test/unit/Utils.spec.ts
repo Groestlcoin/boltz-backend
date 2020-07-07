@@ -2,7 +2,7 @@
 
 import os from 'os';
 import { OutputType } from 'boltz-core';
-import { Transaction } from 'bitcoinjs-lib';
+import { Transaction } from 'groestlcoinjs-lib';
 import * as utils from '../../lib/Utils';
 import commitHash from '../../lib/Version';
 import { OrderSide } from '../../lib/consts/Enums';

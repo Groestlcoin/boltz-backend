@@ -1,4 +1,4 @@
-import { Transaction } from 'bitcoinjs-lib';
+import { Transaction } from 'groestlcoinjs-lib';
 import { OutputType, Networks } from 'boltz-core';
 import Logger from '../../../lib/Logger';
 import { generateAddress } from '../../Utils';

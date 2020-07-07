@@ -1,4 +1,4 @@
-import { Network, address, BIP32Interface } from 'bitcoinjs-lib';
+import { Network, address, BIP32Interface } from 'groestlcoinjs-lib';
 import Logger from '../Logger';
 import KeyRepository from '../db/KeyRepository';
 import WalletProviderInterface from './providers/WalletProviderInterface';

@@ -1,5 +1,5 @@
 import { randomBytes } from 'crypto';
-import { Transaction, crypto } from 'bitcoinjs-lib';
+import { Transaction, crypto } from 'groestlcoinjs-lib';
 import { getHexString, reverseBuffer } from '../../../lib/Utils';
 import { Transaction as TransactionType } from '../../../lib/consts/Types';
 

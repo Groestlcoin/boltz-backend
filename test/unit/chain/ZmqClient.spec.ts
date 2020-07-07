@@ -2,7 +2,7 @@ import getPort from 'get-port';
 import zmq, { Socket } from 'zeromq';
 import { randomBytes } from 'crypto';
 import { OutputType } from 'boltz-core';
-import { Transaction, crypto } from 'bitcoinjs-lib';
+import { Transaction, crypto } from 'groestlcoinjs-lib';
 import Logger from '../../../lib/Logger';
 import Errors from '../../../lib/chain/Errors';
 import FakedChainClient from './FakeChainClient';

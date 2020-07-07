@@ -1,6 +1,6 @@
 import { Op } from 'sequelize';
 import { OutputType } from 'boltz-core';
-import { Transaction } from 'bitcoinjs-lib';
+import { Transaction } from 'groestlcoinjs-lib';
 import { TransactionReceipt } from 'web3-core';
 import Errors from './Errors';
 import Logger from '../Logger';

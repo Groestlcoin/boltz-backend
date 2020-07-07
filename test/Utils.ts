@@ -1,6 +1,6 @@
 import { OutputType, Networks, Scripts } from 'boltz-core';
 import { TransactionInput } from 'bip174/src/lib/interfaces';
-import { ECPair, address, crypto, Psbt } from 'bitcoinjs-lib';
+import { ECPair, address, crypto, Psbt } from 'groestlcoinjs-lib';
 import { getPubkeyHashFunction } from '../lib/Utils';
 
 export const randomRange = (max: number): number => {
