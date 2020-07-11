@@ -2,12 +2,12 @@ type Version = string | number;
 
 class VersionCheck {
   private static chainClientVersionLimits = {
-    minimal: 180100,
-    maximal: 200000,
+    minimal: 2180200,
+    maximal: 2201000,
   };
 
   private static lndVersionLimits = {
-    minimal: '0.10.1',
+    minimal: '0.10.0',
     maximal: '0.10.3',
   };
 
