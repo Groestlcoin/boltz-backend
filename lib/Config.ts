@@ -141,8 +141,8 @@ class Config {
 
       retryInterval: 15,
 
-      prepayminerfee: True,
-      swapwitnessaddress: True,
+      prepayminerfee: true,
+      swapwitnessaddress: true,
 
       api: {
         host: '127.0.0.1',
@@ -181,19 +181,8 @@ class Config {
 
       pairs: [
         {
-          base: 'LTC',
-          quote: 'BTC',
-          fee: 5,
-        },
-        {
           base: 'GRS',
           quote: 'GRS',
-          fee: 1,
-          rate: 1,
-        },
-        {
-          base: 'LTC',
-          quote: 'LTC',
           fee: 1,
           rate: 1,
         },
@@ -226,34 +215,6 @@ class Config {
             port: 10009,
             certpath: path.join(getServiceDataDir('lnd-grs'), 'tls.cert'),
             macaroonpath: path.join(getServiceDataDir('lnd-grs'), 'data', 'chain', 'groestlcoin', Network.Testnet, 'admin.macaroon'),
-          },
-        },
-        {
-          symbol: 'LTC',
-          network: Network.Testnet,
-
-          maxSwapAmount: 10000000,
-          minSwapAmount: 10000,
-
-          minWalletBalance: 100000000,
-
-          minLocalBalance: 50000000,
-          minRemoteBalance: 50000000,
-
-          maxZeroConfAmount: 20000000,
-
-          chain: {
-            host: '127.0.0.1',
-            port: 19334,
-            rpcuser: 'user',
-            rpcpass: 'user',
-          },
-
-          lnd: {
-            host: '127.0.0.1',
-            port: 11009,
-            certpath: path.join(getServiceDataDir('lnd'), 'tls.cert'),
-            macaroonpath: path.join(getServiceDataDir('lnd'), 'data', 'chain', 'litecoin', Network.Testnet, 'admin.macaroon'),
           },
         },
       ],
