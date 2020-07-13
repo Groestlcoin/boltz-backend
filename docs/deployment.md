@@ -33,12 +33,12 @@ loglevel = "debug"
 # This value configures the type of the lockup address of normal Submarine Swaps:
 #   - false: P2SH nested P2WSH
 #   - true: P2WSH
-swapwitnessaddress = True
+swapwitnessaddress = true
 
 # Enables the prepay minerfee Reverse Swap procotol
 # If this value is "true", an invoice for the miner fee has to be paid
 # before hold invoice of the Revese Swap
-prepayminerfee = True
+prepayminerfee = true
 
 # This is the REST API that should be exposed to the public
 # It does not support HTTPS but only plaintext HTTP. A reverse
