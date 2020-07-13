@@ -95,22 +95,10 @@ otpsecretpath = "/root/.boltz/otpSecret.dat"
 # - "fee": percentage of the swapped amount that should be charged as fee
 
 [[pairs]]
-base = "LTC"
-quote = "BTC"
-timeoutDelta = 400
-
-[[pairs]]
 base = "GRS"
 quote = "GRS"
 rate = 1
 timeoutDelta = 400
-
-[[pairs]]
-base = "LTC"
-quote = "LTC"
-rate = 1
-fee = 0.5
-timeoutDelta = 300
 
 # The array "currencies" configures the chain and LND clients for the "pairs"
 # Not configuring the LND client is possible but will cause that chain not to support Lightning
@@ -134,27 +122,28 @@ maxZeroConfAmount = 10_000_000
   [currencies.lnd]
   host = "127.0.0.1"
   port = 10_009
-  certpath = "/root/.lnd-grs/groestlcoin/tls.cert"
-  macaroonpath = "/root/.lnd-grs/groestlcoin/admin.macaroon"
+  certpath = "/root/.lnd-grs/tls.cert"
+  macaroonpath = "/root/.lnd-grs/data/chain/groestlcoin/testnet/admin.macaroon"
 
 [[currencies]]
-symbol = "LTC"
-network = "litecoinTestnet"
-minWalletBalance = 20_000_000
-minChannelBalance = 0
-maxSwapAmount = 1_000_000_000
-minSwapAmount = 100_000
-maxZeroConfAmount = 1_000_000_000
+symbol = "GRS"
+network = "bitcoinMainnet"
+minWalletBalance = 10_000_000
+minChannelBalance = 10_000_000
+maxSwapAmount = 10_000_000
+minSwapAmount = 10_000
+maxZeroConfAmount = 10_000_000
 
   [currencies.chain]
   host = "127.0.0.1"
-  port = 19_332
-  rpcuser = "litecoin"
-  rpcpass = "litecoin"
+  port = 14_41
+  rpcuser = "groestlcoin"
+  rpcpass = "groestlcoin"
 
   [currencies.lnd]
   host = "127.0.0.1"
-  port = 11_009
-  certpath = "/home/boltz/.lnd/litecoin/tls.cert"
-  macaroonpath = "/home/boltz/.lnd/litecoin/admin.macaroon"
+  port = 10_009
+  certpath = "/root/.lnd-grs/tls.cert"
+  macaroonpath = "/root/.lnd-grs/data/chain/groestlcoin/mainnet/admin.macaroon"
+
 ```

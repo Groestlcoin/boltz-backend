@@ -1,5 +1,5 @@
 import { Op } from 'sequelize';
-import bolt11 from '@boltz/bolt11';
+import bolt11 from 'bolt11';
 import { randomBytes } from 'crypto';
 import { Networks, OutputType } from 'boltz-core';
 import { address, ECPair, Transaction } from 'groestlcoinjs-lib';
