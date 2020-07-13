@@ -1,6 +1,6 @@
 import { Arguments } from 'yargs';
 import { address, ECPair, Transaction } from 'groestlcoinjs-lib';
-import { Networks, constructRefundTransaction, detectSwap } from 'boltz-core';
+import { Networks, constructRefundTransaction, detectSwap } from 'boltz-core-grs';
 import BuilderComponents from '../BuilderComponents';
 import { getHexBuffer, stringify } from '../../Utils';
 

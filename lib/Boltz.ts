@@ -1,6 +1,6 @@
 import fs from 'fs';
 import { Arguments } from 'yargs';
-import { Networks } from 'boltz-core';
+import { Networks } from 'boltz-core-grs';
 import { generateMnemonic } from 'bip39';
 import Api from './api/Api';
 import Logger from './Logger';

@@ -1,4 +1,4 @@
-import { OutputType } from 'boltz-core';
+import { OutputType } from 'boltz-core-grs';
 import { Error } from '../consts/Types';
 import { concatErrorCode } from '../Utils';
 import { ErrorCodePrefix } from '../consts/Enums';

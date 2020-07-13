@@ -1,5 +1,5 @@
 import { Op } from 'sequelize';
-import { Networks } from 'boltz-core';
+import { Networks } from 'boltz-core-grs';
 import { wait } from '../../Utils';
 import Logger from '../../../lib/Logger';
 import Swap from '../../../lib/db/models/Swap';

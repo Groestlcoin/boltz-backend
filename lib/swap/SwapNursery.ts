@@ -8,7 +8,7 @@ import {
   detectPreimage,
   constructClaimTransaction,
   constructRefundTransaction,
-} from 'boltz-core';
+} from 'boltz-core-grs';
 import Logger from '../Logger';
 import Swap from '../db/models/Swap';
 import Wallet from '../wallet/Wallet';

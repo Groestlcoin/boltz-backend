@@ -1,6 +1,6 @@
 import BN from 'bn.js';
 import Web3 from 'web3';
-import { ContractABIs } from 'boltz-core';
+import { ContractABIs } from 'boltz-core-grs';
 import { Contract } from 'web3-eth-contract';
 import { TransactionReceipt } from 'web3-core';
 import HDWalletProvider from '@truffle/hdwallet-provider';

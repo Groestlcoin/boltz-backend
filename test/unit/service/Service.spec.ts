@@ -1,6 +1,6 @@
 import { Op } from 'sequelize';
 import { randomBytes } from 'crypto';
-import { Networks } from 'boltz-core';
+import { Networks } from 'boltz-core-grs';
 import Logger from '../../../lib/Logger';
 import Swap from '../../../lib/db/models/Swap';
 import packageJson from '../../../package.json';

@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { Networks } from 'boltz-core';
+import { Networks } from 'boltz-cor-grs';
 import { generateMnemonic } from 'bip39';
 import Logger from '../../../lib/Logger';
 import Database from '../../../lib/db/Database';

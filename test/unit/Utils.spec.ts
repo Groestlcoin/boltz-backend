@@ -1,5 +1,5 @@
 import os from 'os';
-import { OutputType } from 'boltz-core';
+import { OutputType } from 'boltz-core-grs';
 import { Transaction } from 'groestlcoinjs-lib';
 import * as utils from '../../lib/Utils';
 import commitHash from '../../lib/Version';

@@ -19,7 +19,7 @@ def send_erc20(amount: float, destination: str, contract_address: str):
     abi_path = os.path.join(
         os.path.dirname(__file__),
         "..",
-        "node_modules/boltz-core/build/contracts/IERC20.json",
+        "node_modules/boltz-core-grs/build/contracts/IERC20.json",
     )
     abi = open(abi_path, "r")
 

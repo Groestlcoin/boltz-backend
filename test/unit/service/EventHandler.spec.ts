@@ -1,5 +1,5 @@
 import { Transaction } from 'groestlcoinjs-lib';
-import { OutputType, Networks } from 'boltz-core';
+import { OutputType, Networks } from 'boltz-core-grs';
 import Logger from '../../../lib/Logger';
 import { generateAddress } from '../../Utils';
 import Swap from '../../../lib/db/models/Swap';

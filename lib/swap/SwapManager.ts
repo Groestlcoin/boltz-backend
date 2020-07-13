@@ -1,6 +1,6 @@
 import { Op } from 'sequelize';
 import { Transaction } from 'groestlcoinjs-lib';
-import { OutputType, reverseSwapScript, swapScript } from 'boltz-core';
+import { OutputType, reverseSwapScript, swapScript } from 'boltz-core-grs';
 import Errors from './Errors';
 import Logger from '../Logger';
 import Swap from '../db/models/Swap';

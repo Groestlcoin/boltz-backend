@@ -1,4 +1,4 @@
-import bolt11 from 'bolt11';
+import bolt11 from 'bolt11grs';
 import { Op } from 'sequelize';
 import AsyncLock from 'async-lock';
 import { EventEmitter } from 'events';

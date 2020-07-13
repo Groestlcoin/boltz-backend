@@ -1,8 +1,8 @@
 import os from 'os';
 import path from 'path';
 import { Transaction } from 'groestlcoinjs-lib';
-import bolt11, { RoutingInfo } from 'bolt11';
-import { OutputType, Scripts } from 'boltz-core';
+import bolt11, { RoutingInfo } from 'bolt11grs';
+import { OutputType, Scripts } from 'boltz-core-grs';
 import commitHash from './Version';
 import packageJson from '../package.json';
 import { OrderSide } from './consts/Enums';

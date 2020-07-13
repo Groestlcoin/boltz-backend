@@ -1,5 +1,5 @@
-import bolt11 from 'bolt11';
-import { Networks } from 'boltz-core';
+import bolt11 from 'bolt11grs';
+import { Networks } from 'boltz-core-grs';
 import Report from './Report';
 import Swap from '../db/models/Swap';
 import { OrderSide } from '../consts/Enums';

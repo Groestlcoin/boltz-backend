@@ -1,7 +1,7 @@
 import getPort from 'get-port';
 import zmq, { Socket } from 'zeromq';
 import { randomBytes } from 'crypto';
-import { OutputType } from 'boltz-core';
+import { OutputType } from 'boltz-core-grs';
 import { Transaction, crypto } from 'groestlcoinjs-lib';
 import Logger from '../../../lib/Logger';
 import Errors from '../../../lib/chain/Errors';

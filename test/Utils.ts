@@ -1,4 +1,4 @@
-import { OutputType, Networks, Scripts } from 'boltz-core';
+import { OutputType, Networks, Scripts } from 'boltz-core-grs';
 import { TransactionInput } from 'bip174/src/lib/interfaces';
 import { ECPair, address, crypto, Psbt, Transaction } from 'groestlcoinjs-lib';
 import { getPubkeyHashFunction } from '../lib/Utils';

@@ -1,4 +1,4 @@
-import { OutputType } from 'boltz-core';
+import { OutputType } from 'boltz-core-grs';
 import { bitcoinClient } from '../Nodes';
 import { getHexBuffer, reverseBuffer } from '../../../lib/Utils';
 import { waitForFunctionToBeTrue, generateAddress } from '../../Utils';
