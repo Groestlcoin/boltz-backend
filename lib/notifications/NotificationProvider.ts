@@ -326,7 +326,7 @@ class NotificationProvider {
   private getSmallestDenomination = (symbol: string): string => {
     switch (symbol) {
       case 'LTC': return 'litoshi';
-      default: return 'satoshi';
+      default: return 'gro';
     }
   }
 
